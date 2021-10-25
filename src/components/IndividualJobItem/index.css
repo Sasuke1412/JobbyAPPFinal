@@ -1,0 +1,94 @@
+.job-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 120vh;
+}
+.job-card-individual-new {
+  width: 1000px;
+  height: 1200px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin: 10px;
+  background-color: #202020;
+  color: white;
+  padding: 10px;
+}
+.top-section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.job-company-logo {
+  width: 50px;
+  height: 50px;
+}
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.title-rating-container {
+  margin-left: 8px;
+}
+.heading-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.rating-color {
+  color: #fbbf24;
+}
+.rating-para {
+  font-size: 12px;
+}
+.row-section-seperator-from-salary {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.middile-section-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-section,
+.job-type-section {
+  margin: 5px;
+}
+.description-heading {
+  font-size: 18px;
+}
+.job-description-para {
+  font-size: 16px;
+}
+.skills-container-techno {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+.techno-skills {
+  display: flex;
+  flex-direction: row;
+}
+.techno-skill-list-individual {
+  margin: 15px;
+  margin-right: 50px;
+}
+.logo-techno-image-design {
+  width: 50px;
+  height: 50px;
+  margin-right: 5px;
+}
+.life-at-company-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
